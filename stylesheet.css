@@ -1,0 +1,206 @@
+/*General CSS code*/
+body{
+	margin: 0 auto;
+	font-family: Arial;
+}
+.nav{
+	background: #000000;
+	z-index: 2;
+	height: 20px;
+	width: 100%;
+	margin: auto;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px 10px 20px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	opacity: 0.8;
+	top: 0;
+	position: fixed;
+}
+.nav a{
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.nav a:hover{
+	color: #0000FF;
+}
+.nav a:active{
+	color: #00FF00;
+}
+
+.link img{
+	height: 30px;
+	float: right;
+	display: inline;
+	margin-right: 20px;
+}
+.content{
+	margin: 40px 0px 0px 0px;
+	border: 1px solid #000000;
+	background: #000000;
+	height: auto;
+	width: 100%;
+	font-size: 13px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	opacity: 0.9;
+	text-align: center;
+}
+h1,h2, h3, h4, h5, h6, p, ul, li{
+	font-family: sans-serif;
+	color: #ffffff;
+	opacity: 1;
+	z-index: 2;
+}
+.img{
+	height: 350px; width: 350px; border: 5px inset grey; border-radius: 2px;
+}
+
+#details{
+	color: white;
+	margin-top: -10px;
+}
+
+
+
+
+/*CSS code for homePage*/
+.homehtml{
+	height: 100%;
+	background: url(pics/lionel_home.jpg)  no-repeat top center fixed;
+	background-size: cover;
+}
+.home_content{
+	margin: 40px 0px 0px 0px;
+	background-color: #000000;
+	height: 1240px;
+	width: 100%;
+	font-size: 13px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	text-align: left;
+	opacity: 0.7;
+}
+.home_content p{
+	font-weight: bold; 
+	font-size: 15px;
+	color: #ffffff;
+}
+
+#home_footer {
+	height: 20px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	margin: 0px;
+	padding: 20px 18.2px 0px 0px;
+}
+
+
+/*CSS code for Biography*/
+.biohtml{
+	height: 100%;
+	background: url(bio.gif) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#bio_footer {
+	height: 20px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	margin: 0px;
+	padding: 20px 18.2px 0px 0px;
+}
+
+
+/*CSS code for gallery*/
+.gallery{
+	height: 100%;
+	background: #708090;
+	background-size: cover;
+}
+
+.gallery_content{
+	margin: 40px 0px 0px 0px;
+	border: 1px solid #000000;
+	background: #000000;
+	height: auto;
+	width: 100%;
+	font-size: 13px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	opacity: 0.9;
+}
+#gallery_footer {
+	height: 20px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	margin: 0px;
+	padding: 20px 18.2px 0px 0px;
+}
+/*CSS code for honours*/
+.honours {
+	height: 100%;
+	background: url(http://cdn.fansided.com/wp-content/blogs.dir/229/files/2014/01/6927656.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
+#honour_footer {
+	height: 20px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	margin: 0px;
+	padding: 20px 18.2px 0px 0px;
+}
+.honours_content{
+	margin: 40px 0px 0px 0px;
+	border: 1px solid #000000;
+	background: #000000;
+	height: auto;
+	width: 100%;
+	font-size: 13px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	opacity: 0.9;
+	text-align: left;
+}
+
+/*CSS code for social*/
+.social{
+	height: 100%;
+	background: url(http://messironaldo.de/wp-content/uploads/2013/10/neues-haus-von-messi-1.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+.twitter{
+	margin: 40px 0px 0px 0px;
+	height: auto;
+	width: 100%;
+	font-size: 13px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	text-align: center;
+}
+#twitter_footer{
+	height: 20px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	margin: 0px;
+	padding: 20px 18.2px 0px 0px;
+	background: #000000;
+	opacity: 0.9;
+	border-radius: 5px;
+}
